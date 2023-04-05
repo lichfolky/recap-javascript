@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: palegoldenrod;
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+.wrapper {
+    margin: 2rem;
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+    border-bottom: 3px solid black;
+    flex-wrap: wrap;
+}
+
+h1 {
+    padding: 2rem;
+    font-size: 3rem;
+}
+
+.panino {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+}
+
+.panino>* {
+    height: 10px;
+    width: 120px;
+    border-radius: 2px;
+}
+
+
+.pane.top {
+    height: 30px;
+    border-radius: 50% 50% 0 0;
+}
+
+.pomodoro {
+    width: 100px;
+    background: red;
+}
+
+.insalata {
+    background: rgb(0, 255, 64);
+}
+
+.formaggio {
+    background: yellow;
+}
+
+.carne {
+    border-radius: 5px;
+    height: 20px;
+    background: brown;
+}
+
+.pane {
+    width: 130px;
+    background: darkgoldenrod;
+    border-radius: 0 0 5px 5px;
+
+}
+
+.nome {
+    font-weight: 700;
+    text-align: center;
+    height: initial;
+    font-size: 2rem;
+
+}
